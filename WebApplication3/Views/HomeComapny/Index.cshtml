@@ -1,0 +1,138 @@
+﻿@using DevExtreme.AspNet.Mvc;
+@using WebApplication3.Dto;
+@using WebApplication3.Model;
+<div class="container">
+    <div class="bg-light p-5 text-center">
+        <h2>Employee In Our  Company Employee Page</h2>
+        <p>Some Information Here:</p>
+        <button class="btn btn-primary">More Info</button>
+    </div>
+</div>
+
+<script>
+    var departments = [{ "Id": 1, "Name": "Hr" },
+    { "Id": 2, "Name": "Development" },
+    { "Id": 3, "Name": "Marketing" },
+
+    ]
+
+    var genderss = [{ "Id": 1, "Name": "Female" },
+    { "Id": 2, "Name": "Male" },
+
+
+    ]
+    $(function () {
+        var serviceUrl = "/Company";
+        $("#EmployeeDataGrid").dxDataGrid({
+            dataSource: DevExpress.data.AspNet.createStore({
+                key: "employeeId",
+                loadUrl: serviceUrl + "/Get",
+                insertUrl: serviceUrl + "/Create",
+                updateUrl: serviceUrl + "/Put",
+                deleteUrl: serviceUrl + "/Delete",
+            }),
+            remoteOperations: { groupPaging: true },
+
+            groupPanel: { visible: true },
+            filterRow: { visible: true },
+            headerFilter: { visible: true },
+            editing: {
+                allowUpdating: true,
+                allowAdding: true,
+                allowDeleting: true
+            }
+            // ...
+        })
+    });
+
+
+</script>
+
+@(Html.DevExtreme().DataGrid<EmployeeDto>()
+    .ID("EmployeeDataGrid")
+    .HeaderFilter(headerFilter => headerFilter.Visible(true))
+     .Scrolling(scrolling => scrolling.Mode(GridScrollingMode.Infinite))
+    .ShowRowLines(true)
+    .ShowBorders(true)
+    .ColumnAutoWidth(true)
+    .WordWrapEnabled(true)
+    .Columns(columns =>
+    {
+        columns.AddFor(m => m.employeeId).Visible(false);
+        columns.AddFor(m => m.firstName);
+        columns.AddFor(m => m.lastName);
+        columns.AddFor(m => m.dateOfBirth);
+        columns.AddFor(m => m.gender).Lookup(lookup => lookup
+                  .DataSource(new JS("genderss"))
+                  .DisplayExpr("Name")
+                  .ValueExpr("Id")
+              ); ;
+             
+        columns.AddFor(m => m.position);
+        columns.AddFor(m => m.salary);
+        columns.AddFor(m => m.hireDate);
+
+        columns.AddFor(m => m.department)
+        .Width(125)
+              .Lookup(lookup => lookup
+                  .DataSource(new JS("departments"))
+                  .DisplayExpr("Name").ValueExpr("Id")
+              );
+
+
+
+    })
+ .Editing(e => e.Mode(GridEditMode.Popup)
+        .AllowAdding(true)
+        .AllowDeleting(true)
+        .AllowUpdating(true)
+        .Popup(p => p
+                .Title("Employee Info")
+                .ShowTitle(true)
+                .Width(700)
+                .Height(525)
+            )
+            .Form(f => f.Items(items =>
+            {
+
+                items.AddGroup()
+                    .ColCount(2)
+                    .ColSpan(2)
+                    .Items(groupItems =>
+                    {
+                        groupItems.AddSimpleFor(m => m.firstName);
+                       groupItems.AddSimpleFor(m => m.lastName);
+                        groupItems.AddSimpleFor(m => m.dateOfBirth);
+                        groupItems.AddSimpleFor(m => m.department);
+                        groupItems.AddSimpleFor(m => m.position);
+                        groupItems.AddSimpleFor(m => m.hireDate);
+                        groupItems.AddSimpleFor(m => m.salary);
+                    });
+
+                items.AddGroup()
+       .Caption("Gender")
+       .ColCount(2)
+       .ColSpan(2)
+       .Items(groupItems =>
+       {
+           groupItems.AddSimpleFor(m => m.gender).Label(x => x.Text("Gender"))
+
+            .Editor(editor => editor.RadioGroup()
+             .ID("Id")
+               .DataSource(new JS("genderss"))
+               .ValueExpr("Id")
+               .DisplayExpr("Name")
+               .Value(0)
+            .Height(100));
+
+
+       });
+
+               
+            }))
+        )
+    )
+
+
+
+

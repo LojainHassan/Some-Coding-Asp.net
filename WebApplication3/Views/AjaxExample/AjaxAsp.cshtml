@@ -1,0 +1,110 @@
+﻿@using DevExtreme.AspNet.Mvc;
+@using WebApplication3.Dto;
+@using WebApplication3.Model;
+
+
+
+
+<script>
+
+    $(function () {
+        var serviceUrl = "/AjaxExample";
+        $("#EmployeeDataGrid").dxDataGrid({
+            dataSource: DevExpress.data.AspNet.createStore({
+                key: "employeeId",
+                loadUrl: serviceUrl + "/GetNames",
+                insertUrl: serviceUrl + "/Create",
+                updateUrl: serviceUrl + "/Put",
+                deleteUrl: serviceUrl + "/Delete",
+
+            }),
+          
+
+            remoteOperations: { groupPaging: true },
+
+            groupPanel: { visible: true },
+            filterRow: { visible: true },
+            headerFilter: { visible: true },
+            editing: {
+                allowUpdating: true,
+                allowAdding: true,
+                allowDeleting:true
+            }
+            // ...
+        })
+    });
+
+
+
+</script>
+
+
+@(
+Html.DevExtreme().DataGrid<Employee>()
+    .ID("EmployeeDataGrid")
+    .KeyExpr("employeeId")
+.Columns(
+    d =>
+    {
+        d.AddFor(d => d.employeeId).Visible(false);
+        d.AddFor(d => d.firstName);
+        d.AddFor(d => d.lastName);
+        d.AddFor(d => d.dateOfBirth);
+        d.AddFor(d => d.hireDate);
+        d.AddFor(d => d.salary);
+        d.AddFor(d => d.department);
+        d.AddFor(d => d.position);
+     
+
+    }
+).ShowColumnLines(true)
+.ShowRowLines(true)
+.HoverStateEnabled(true)
+.ColumnAutoWidth(true)
+.AllowColumnReordering(true)
+.ShowBorders(true)
+.RowAlternationEnabled(true)
+.Grouping(grouping => grouping.AutoExpandAll(true))
+.SearchPanel(searchPanel => searchPanel.Visible(true))
+.GroupPanel(groupPanel => groupPanel.Visible(true))
+
+.Editing(e => e.Mode(GridEditMode.Popup)
+    .AllowAdding(true)
+    .AllowUpdating(true)
+    .Popup(p => p
+            .Title("Employee Info")
+            .ShowTitle(true)
+            .Width(700)
+            .Height(525)
+        )
+        .Form(f => f.Items(items =>
+        {
+            items.AddGroup()
+                .ColCount(2)
+                .ColSpan(2)
+                .Items(groupItems =>
+                {
+                    groupItems.AddSimpleFor(m => m.firstName);
+                    groupItems.AddSimpleFor(m => m.dateOfBirth);
+                    groupItems.AddSimpleFor(m => m.lastName);
+
+                });
+
+            items.AddGroup()
+                .Caption("Job Info")
+                .ColCount(2)
+                .ColSpan(2)
+                .Items(groupItems =>
+                {
+                    groupItems.AddSimpleFor(m => m.hireDate);
+                    groupItems.AddSimpleFor(m => m.position);
+                    groupItems.AddSimpleFor(m => m.salary);
+                    groupItems.AddSimpleFor(m => m.department);
+                });
+        }))
+    )
+)
+
+
+
+

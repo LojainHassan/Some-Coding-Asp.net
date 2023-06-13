@@ -1,0 +1,909 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication3.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplication3.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx-diagram.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx-diagram.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx-diagram.min.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx-diagram.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx-gantt.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx-gantt.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx-gantt.min.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx-gantt.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.carmine.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.carmine.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.carmine.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.carmine.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.common.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.common.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.contrast.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.contrast.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.contrast.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.contrast.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.dark.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.dark.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.darkmoon.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.darkmoon.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.darkmoon.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.darkmoon.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.darkviolet.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.darkviolet.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.darkviolet.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.darkviolet.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.greenmist.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.greenmist.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.greenmist.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.greenmist.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.light.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.light.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.light.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.blue.dark.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.blue.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.blue.dark.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.blue.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.blue.light.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.blue.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.blue.light.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.blue.light.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.lime.dark.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.lime.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.lime.dark.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.lime.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.lime.light.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.lime.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.lime.light.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.lime.light.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.orange.dark.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.orange.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.orange.dark.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.orange.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.orange.light.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.orange.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.orange.light.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.orange.light.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.purple.dark.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.purple.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.purple.dark.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.purple.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.purple.light.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.purple.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.purple.light.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.purple.light.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.teal.dark.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.teal.dark.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.teal.dark.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.teal.dark.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.teal.light.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.teal.light.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.material.teal.light.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.material.teal.light.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.softblue.compact.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.softblue.compact.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\dx.softblue.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\dx.softblue.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts.css",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-300.ttf",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-300.woff",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-300.woff2",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-400.ttf",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-400.woff",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-400.woff2",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-500.ttf",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-500.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-500.woff",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-500.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-500.woff2",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-500.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-700.ttf",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-700.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-700.woff",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-700.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\fonts\\Roboto-700.woff2",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\fonts\\Roboto-700.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\icons\\dxicons.ttf",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\icons\\dxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\icons\\dxicons.woff",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\icons\\dxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\icons\\dxicons.woff2",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\icons\\dxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\icons\\dxiconsmaterial.ttf",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\icons\\dxiconsmaterial.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\icons\\dxiconsmaterial.woff",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\icons\\dxiconsmaterial.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\devextreme\\icons\\dxiconsmaterial.woff2",
+      "PackagePath": "staticwebassets\\css_dx\\devextreme\\icons\\dxiconsmaterial.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\css_dx\\site.css",
+      "PackagePath": "staticwebassets\\css_dx\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\devexpress_latest.js",
+      "PackagePath": "staticwebassets\\devexpress_latest.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\aspnet\\dx.aspnet.data.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\aspnet\\dx.aspnet.data.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\aspnet\\dx.aspnet.mvc.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\aspnet\\dx.aspnet.mvc.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\cldr.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\cldr.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\cldr.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\cldr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\cldr\\event.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\cldr\\event.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\cldr\\event.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\cldr\\event.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\cldr\\supplemental.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\cldr\\supplemental.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\cldr\\supplemental.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\cldr\\supplemental.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\cldr\\unresolved.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\cldr\\unresolved.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\cldr\\unresolved.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\cldr\\unresolved.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dx-diagram.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dx-diagram.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dx-diagram.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dx-diagram.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dx-gantt.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dx-gantt.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dx-gantt.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dx-gantt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dx.all.debug.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dx.all.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dx.all.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dx.all.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dx.viz.debug.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dx.viz.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dx.viz.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dx.viz.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dx.web.debug.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dx.web.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dx.web.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dx.web.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dxAr.all.debug.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dxAr.all.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\dxAr.all.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\dxAr.all.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\globalize.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\globalize.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\globalize.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\globalize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\globalize\\currency.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\globalize\\currency.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\globalize\\currency.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\globalize\\currency.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\globalize\\date.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\globalize\\date.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\globalize\\date.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\globalize\\date.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\globalize\\message.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\globalize\\message.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\globalize\\message.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\globalize\\message.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\globalize\\number.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\globalize\\number.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\globalize\\number.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\globalize\\number.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\jquery.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\jszip.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\jszip.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\jszip.min.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.ar.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.ar.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.cs.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.cs.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.de.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.de.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.el.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.el.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.en.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.en.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.es.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.es.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.fi.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.fi.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.fr.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.fr.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.hu.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.hu.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.it.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.it.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.ja.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.ja.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.nl.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.nl.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.pt.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.pt.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.ru.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.ru.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.sl.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.sl.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.sv.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.sv.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.tr.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.tr.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.vi.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.vi.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.zh-tw.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.zh-tw.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\localization\\dx.messages.zh.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\localization\\dx.messages.zh.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\vectormap-data\\africa.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\vectormap-data\\africa.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\vectormap-data\\canada.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\vectormap-data\\canada.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\vectormap-data\\eurasia.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\vectormap-data\\eurasia.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\vectormap-data\\europe.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\vectormap-data\\europe.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\vectormap-data\\usa.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\vectormap-data\\usa.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\vectormap-data\\world.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\vectormap-data\\world.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\vectormap-utils\\dx.vectormaputils.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\vectormap-utils\\dx.vectormaputils.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\vectormap-utils\\dx.vectormaputils.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js",
+      "PackagePath": "staticwebassets\\js_dx\\devextreme\\vectormap-utils\\dx.vectormaputils.node.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\js_dx\\site.js",
+      "PackagePath": "staticwebassets\\js_dx\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib_dx\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib_dx\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib_dx\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib_dx\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib_dx\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib_dx\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib_dx\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib_dx\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib_dx\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\lib_dx\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib_dx\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebApplication3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebApplication3.props",
+      "PackagePath": "build\\WebApplication3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication3.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebApplication3.props",
+      "PackagePath": "buildTransitive\\WebApplication3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

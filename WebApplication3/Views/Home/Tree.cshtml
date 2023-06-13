@@ -1,0 +1,68 @@
+﻿@using DevExtreme.AspNet.Mvc;
+@using WebApplication3.Dto;
+@using WebApplication3.Model;
+
+@(
+Html.DevExtreme().DataGrid<EmployeeDto>()
+   
+    .Columns(
+        d=> {
+            d.AddFor(d => d.employeeId).Visible(false);
+            d.AddFor(d => d.firstName);
+            d.AddFor(d => d.hireDate);
+            d.AddFor(d => d.salary);
+            d.AddFor(d => d.position);
+        }
+    ).ShowColumnLines(true)
+    .ShowRowLines(true)
+    .HoverStateEnabled(true)
+    .ColumnAutoWidth(true)
+    .AllowColumnReordering(true)
+    .ShowBorders(true)
+    .RowAlternationEnabled(true)
+    .Grouping(grouping => grouping.AutoExpandAll(true))
+    .SearchPanel(searchPanel => searchPanel.Visible(true))
+    .GroupPanel(groupPanel => groupPanel.Visible(true))
+    .Paging(paging => paging.PageSize(5))
+     .DataSource(d =>
+    d.Mvc()
+    .Controller("TreeListEmployees")
+    .LoadAction("Get")
+    )
+    .Editing(e => e.Mode(GridEditMode.Popup)
+        .AllowAdding(true)
+        .AllowDeleting(true)
+        .AllowUpdating(true)
+        .Popup(p => p
+                .Title("Employee Info")
+                .ShowTitle(true)
+                .Width(700)
+                .Height(525)
+            )
+            .Form(f => f.Items(items =>
+            {
+                items.AddGroup()
+                    .ColCount(2)
+                    .ColSpan(2)
+                    .Items(groupItems =>
+                    {
+                        groupItems.AddSimpleFor(m => m.firstName);
+                        groupItems.AddSimpleFor(m => m.dateOfBirth);
+                       
+                    });
+
+                items.AddGroup()
+                    .Caption("Job Info")
+                    .ColCount(2)
+                    .ColSpan(2)
+                    .Items(groupItems =>
+                    {
+                        groupItems.AddSimpleFor(m => m.hireDate);
+                        groupItems.AddSimpleFor(m => m.position);
+                        groupItems.AddSimpleFor(m => m.salary);
+                    });
+            }))
+        )
+    )
+
+

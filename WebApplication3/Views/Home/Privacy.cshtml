@@ -1,0 +1,24 @@
+﻿@using DevExtreme.AspNet.Mvc;
+@using WebApplication3.Model;
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+
+
+<script>
+    var ourlist =[{"Id":1 ,"salary":600 ,"Name":"lojain"},
+    { "Id": 2, "salary": 800, "Name": "Anas" },
+    { "Id": 3, "salary": 1200, "Name": "Lamees" }
+    ]
+</script>
+
+@(Html.DevExtreme().List()
+.DataSource(new JS("ourlist"))
+.ItemTemplate(@<text>
+    <h1>
+        <%- Id %>  This is  <%- Name %>  and His Salary is   <%- salary %>
+    </h1>
+</text>
+))
+

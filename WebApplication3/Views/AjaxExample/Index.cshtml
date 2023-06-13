@@ -1,0 +1,132 @@
+﻿@using DevExtreme.AspNet.Mvc;
+@using WebApplication3.Model;
+
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@*
+
+@section Scripts {
+   <script>
+        var employees ;
+       $(document).ready(function(){
+
+            $.ajax({
+                type: "GET",
+                url: "@Url.Action("GetNames")",
+                datatype: "json",
+                success: function (result) {
+                    employees = result;
+                    console.log(result);
+                },
+                error: function (req, status, error) {
+                    }});
+
+
+       });
+
+
+
+               
+    </script>
+}
+
+*@
+
+
+<p>Start typing a name in the input field below:</p>
+<p>Suggestions: <span id="txtHint"></span></p>
+
+<form>
+    First name: <input type="text" onkeyup="showHint(this.value)">
+</form>
+@section Scripts{
+<script>
+        var gridDataSource = new DevExpress.data.DataSource({
+            load: function (loadOptions) {
+                var d = $.Deferred(),
+                    params = {};
+                [
+                    "skip",
+                    "take",
+                    "requireTotalCount",
+                    "requireGroupCount",
+                    "sort",
+                    "filter",
+                    "totalSummary",
+                    "group",
+                    "groupSummary"
+                ].forEach(function (i) {
+                    if (i in loadOptions && isNotEmpty(loadOptions[i]))
+                        params[i] = JSON.stringify(loadOptions[i]);
+                });
+                $.getJSON("http://mydomain.com/MyDataService", params)
+                    .done(function (result) {
+                        d.resolve(result.data, {
+                            totalCount: result.totalCount,
+                            summary: result.summary,
+                            groupCount: result.groupCount
+                        });
+                    });
+                return d.promise();
+            }
+        });
+        function isNotEmpty(value) {
+            return value !== undefined && value !== null && value !== "";
+        }
+        $(function () {
+            $("#dataGridContainer").dxDataGrid({
+                dataSource: gridDataSource,
+                remoteOperations: { groupPaging: true }
+            });
+        });
+    var customers;
+    function showHint(str) {
+        if (str.length == 0) {
+            document.getElementById("txtHint").innerHTML = "";
+            return;
+        } else {
+            const xmlhttp = new XMLHttpRequest();
+            xmlhttp.onload = function () {
+                    /* document.getElementById("employees").innerHTML = this.responseText;*/
+                    customers=this.responseText;
+            }
+                xmlhttp.open("GET", "AjaxExample/GetNames");
+            xmlhttp.send();
+        }
+    }
+
+
+</script>
+}
+@(
+Html.DevExtreme().DataGrid<Employee>()
+
+      .ID("employees")
+   .KeyExpr("employeeId")
+    .Columns(columns =>
+    {
+        columns.Add().DataField("employeeId");
+        columns.Add().DataField("firstName");
+        columns.Add().DataField("lastName");
+        columns.Add().DataField("dateOfBirth");
+        columns.Add().DataField("hireDate");
+        columns.Add().DataField("department");
+        columns.Add().DataField("salary");
+        columns.Add().DataField("position");
+        columns.Add().DataField("Head_ID");
+    })
+    .ShowRowLines(true)
+    .ShowBorders(true)
+    .ColumnAutoWidth(true)
+   
+)
+
+
+
+
+
+
+

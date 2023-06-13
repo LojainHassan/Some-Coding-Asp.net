@@ -1,0 +1,126 @@
+﻿@using DevExtreme.AspNet.Mvc;
+@using WebApplication3.Model;
+<script>
+
+    var departments = [{ "Id": 1, "Name": "Hr" },
+    { "Id": 2, "Name":"Development" },
+    { "Id": 3, "Name": "Marketing" },
+       
+    ]
+
+    var genderss = [{ "Id": 1, "Name": "Female" },
+    { "Id": 2, "Name": "Male" },
+   
+
+    ]
+
+
+
+</script>
+@*
+
+  @(Html.DevExtreme().DataGrid()
+        .ID("gridContainer")
+        .ShowBorders(true)
+        .Paging(p => p.Enabled(false))
+         .DataSource(new JS("departments"))
+         .Columns(col=>
+         col.Add().DataField("Name")
+         )
+            
+            ) 
+
+*@
+
+
+
+
+
+
+
+
+@(Html.DevExtreme().DataGrid<EmployeeCom>()
+        .ID("gridContainer")
+        .ShowBorders(true)
+        .Paging(p => p.Enabled(false))
+        .Editing(e => e.Mode(GridEditMode.Popup)
+        .AllowUpdating(true)
+        .AllowAdding(true)
+        .AllowDeleting(true)
+        .Popup(p => p
+        .Title("Employee Info")
+        .ShowTitle(true)
+        .Width(700)
+        .Height(525)
+        )
+        .Form(f => f.Items(items =>
+        {
+            items.AddGroup()
+            .ColCount(2)
+            .ColSpan(2)
+            .Items(groupItems =>
+            {
+                groupItems.AddSimpleFor(m => m.firstName);
+                groupItems.AddSimpleFor(m => m.lastName)
+                .Editor(editor => editor.TextArea().Height(100)); 
+                groupItems.AddSimpleFor(m => m.position);
+                groupItems.AddSimpleFor(m => m.hireDate);
+                groupItems.AddSimpleFor(m => m.dateOfBirth);
+                groupItems.AddSimpleFor(m => m.department);
+
+            });
+
+            items.AddGroup()
+            .Caption("Gender")
+            .ColCount(2)
+            .ColSpan(2)
+            .Items(groupItems =>
+            {
+                groupItems.AddSimpleFor(m => m.Female).Label(x=>x.Text("Gender"))
+                
+                 .Editor(editor => editor.RadioGroup()
+                  .ID("Id")
+                    .DataSource(new JS("genderss"))
+                    .ValueExpr("Id")
+                    .DisplayExpr("Name")
+                    .Value(0)
+                 .Height(100));
+                
+              
+            });
+        }))
+        )
+        .Columns(columns =>
+        {
+            columns.AddFor(m => m.firstName)
+            .Width(70);
+
+            columns.AddFor(m => m.lastName);
+
+            columns.AddFor(m => m.hireDate);
+
+            columns.AddFor(m => m.dateOfBirth);
+
+            columns.AddFor(m => m.position)
+            .Width(170);
+            columns.AddFor(m => m.department)
+              .Width(125)
+              .Lookup(lookup => lookup
+                  .DataSource(new JS("departments"))
+                  .DisplayExpr("Name")
+                  .ValueExpr("Name")
+              );
+         
+
+          
+        })
+        .DataSource(d => d.Mvc()
+        .Controller("AjaxExample")
+        .LoadAction("GetNames")
+        .UpdateAction("Put")
+        .InsertAction("Post")
+        .DeleteAction("Delete")
+        .Key("employeeId")
+        )
+        )
+
